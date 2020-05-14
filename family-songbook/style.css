@@ -20,5 +20,9 @@ h2 em {
   font-variant:normal;
 }
 ul li {
-  font-size: 17px
+  font-size: 17px;
+}
+ol li {
+  font-size: 20px;
+  margin: 10px 0;
 }
