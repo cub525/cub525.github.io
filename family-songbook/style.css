@@ -2,27 +2,50 @@ body {
   text-align: justify;
   padding: 20px
 }
+
 #chapter1 {
   background-color: #ff8080
 }
+
 #chapter2 {
   background-color: #ccffff
 }
+
 h2 {
-  font-weight:normal;
-  font-variant:small-caps;
+  font-weight: normal;
+  font-variant: small-caps;
 }
+
 p {
   font-size: 20px;
 }
+
 h2 em {
   font-size: 17px;
-  font-variant:normal;
+  font-variant: normal;
 }
+
 ul li {
   font-size: 17px;
 }
-ol li {
+
+#mormon-sunday-school li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.states li{
   font-size: 20px;
   margin: 10px 0;
 }
