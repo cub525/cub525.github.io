@@ -9,7 +9,7 @@ body {
   text-align: justify;
   font-family: serif;
   background-image: url('paper_background.jpg');
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .chapter-heading {
@@ -36,7 +36,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   padding-left: 10px
 }
 
