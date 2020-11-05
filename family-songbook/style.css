@@ -1,25 +1,33 @@
-
 header {
-  font-size: 40px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
+
 body {
-  padding: 20vw;
+  padding: 20px;
   text-align: justify;
   font-family: serif;
-  background-image: url('webb.png');
+  background-image: url('paper_background.jpg');
+  font-size: 2vw;
+}
+
+.chapter-heading {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #chapter1 {
   background-color: #ff8080;
-  padding: 10px;
 }
 
 #chapter2 {
   background-color: #ccffff;
-  padding: 10px;
-
 }
 
 h2 {
@@ -28,12 +36,12 @@ h2 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 1.5rem;
   padding-left: 10px
 }
 
 h2 em {
-  font-size: 17px;
+  font-size: .5em;
   font-variant: normal;
 }
 
@@ -41,60 +49,58 @@ ul li {
   clear: both;
   content: "";
   display: table;
-  float: left;
-
 }
 
 #mormon-sunday-school li {
   clear: both;
   content: "";
   display: table;
-
   margin: 10px 0;
 }
 
 .column {
   float: left;
-  clear: both;
-  content: "";
-  display: table;
-
+  width: 25%;
 }
 
 .row:after {
   content: "";
   display: table;
-  font-size: 20px;
   padding-left: 55px;
-
+  clear: both;
 }
 
-.states li{
-  font-size: 20px;
+.states li {
   margin: 10px 0;
 }
-#ants li {
-  font-size: 20px;
-}
 
+#ants li {
+
+}
 
 #by-the-bay-examples {
   padding-left: 30px;
 }
+
 #example-list-dbtb {
   padding-left: 55px;
-  font-size: 20px;
+
 }
-#example-list-dbtb li{
-  font-size: 20px;
+
+#example-list-dbtb li {
+
 }
+
 h3 {
   font-weight: normal;
 }
+
 h2 i {
-  font-size: 20px;
-  font-variant:normal;
+  font-size: .75em;
+  font-variant: normal;
 }
-.dedicated {
-  font-size: 15px
+
+
+#timp-div {
+  padding-right: 10px;
 }
