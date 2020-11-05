@@ -1,14 +1,25 @@
+
+header {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
 body {
+  padding: 20px;
   text-align: justify;
-  padding: 20px
+  font-family: serif;
+  background-image: url('webb.png');
 }
 
 #chapter1 {
-  background-color: #ff8080
+  background-color: #ff8080;
+  padding: 10px;
 }
 
 #chapter2 {
-  background-color: #ccffff
+  background-color: #ccffff;
+  padding: 10px;
+
 }
 
 h2 {
@@ -17,7 +28,7 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 10px
 }
 
@@ -27,23 +38,35 @@ h2 em {
 }
 
 ul li {
-  font-size: 17px;
+  clear: both;
+  content: "";
+  display: table;
+  float: left;
+
 }
 
 #mormon-sunday-school li {
-  font-size: 20px;
+  clear: both;
+  content: "";
+  display: table;
+
   margin: 10px 0;
 }
 
 .column {
   float: left;
-  width: 33%;
+  clear: both;
+  content: "";
+  display: table;
+
 }
 
 .row:after {
   content: "";
   display: table;
-  clear: both;
+  font-size: 20px;
+  padding-left: 55px;
+
 }
 
 .states li{
@@ -53,9 +76,8 @@ ul li {
 #ants li {
   font-size: 20px;
 }
-#old-man li {
-  font-size: 20px;
-}
+
+
 #by-the-bay-examples {
   padding-left: 30px;
 }
