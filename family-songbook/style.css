@@ -9,7 +9,7 @@ body {
   text-align: justify;
   font-family: serif;
   background-image: url('paper_background.jpg');
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .chapter-heading {
@@ -30,6 +30,10 @@ a {
   background-color: #ccffff;
 }
 
+#chapter3 {
+  background-color: #cdb3e6;
+}
+
 h2 {
   font-weight: normal;
   font-variant: small-caps;
@@ -45,7 +49,8 @@ h2 em {
   font-variant: normal;
 }
 
-ul li {
+li {
+  font-size: 1.2em;
   clear: both;
   content: "";
   display: table;
@@ -60,7 +65,8 @@ ul li {
 
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
+  text-align: left;
 }
 
 .row:after {
