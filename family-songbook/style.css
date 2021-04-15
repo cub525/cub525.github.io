@@ -3,12 +3,22 @@
   font-weight: bold;
   text-align: center;
 } */
-
 body {
   /* margin: 4rem; */
   text-align: left;
   font-size: clamp(14px, 4vw, 30px);
+}
 
+#toc {
+  display: none;
+}
+
+#show-toc {
+  display: inline-block;
+}
+
+#show-toc:checked+div {
+  display: block;
 }
 
 .chapter-heading {
@@ -77,9 +87,7 @@ li {
   margin: 10px 0;
 }
 
-#ants li {
-
-}
+#ants li {}
 
 #by-the-bay-examples {
   padding-left: 30px;
@@ -87,12 +95,9 @@ li {
 
 #example-list-dbtb {
   padding-left: 55px;
-
 }
 
-#example-list-dbtb li {
-
-}
+#example-list-dbtb li {}
 
 h3 {
   font-weight: normal;
@@ -102,7 +107,6 @@ h2 i {
   font-size: .75em;
   font-variant: normal;
 }
-
 
 #timp-div {
   padding-right: 10px;
