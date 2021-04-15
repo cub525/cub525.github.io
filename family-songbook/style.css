@@ -1,15 +1,14 @@
-header {
+/* header {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-}
+} */
 
 body {
-  padding: 20px;
-  text-align: justify;
-  font-family: serif;
-  background-image: url('paper_background.jpg');
-  font-size: 20px;
+  /* margin: 4rem; */
+  text-align: left;
+  font-size: clamp(14px, 4vw, 30px);
+
 }
 
 .chapter-heading {
@@ -40,8 +39,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5em;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 h2 em {
@@ -50,7 +48,6 @@ h2 em {
 }
 
 li {
-  font-size: 1.2em;
   clear: both;
   content: "";
   display: table;

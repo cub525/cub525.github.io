@@ -1,5 +1,5 @@
 body {
-  margin: 10vw;
+  margin: 4rem;
   text-align: justify;
-  font-size: clamp(10px, 4vw, 25px);
+  font-size: clamp(16px, 4vw, 30px);
 }
