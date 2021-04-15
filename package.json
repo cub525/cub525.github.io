@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/cub525/cub525.github.io/issues"
   },
-  "homepage": "https://github.com/cub525/cub525.github.io#readme",
+  "homepage": "https://github.com/cub525/cub525.github.io/index.html",
   "dependencies": {
     "jquery": "^3.6.0"
   }
