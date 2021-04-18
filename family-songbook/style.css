@@ -8,6 +8,14 @@ body {
   text-align: left;
   font-size: clamp(14px, 4vw, 25px);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #adbac7;
+    background: #22272e;
+  }
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: blue orange;
@@ -32,6 +40,10 @@ header {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
+}
+
+#toc {
+  width: 70%;
 }
 
 .toggle {
@@ -81,7 +93,7 @@ header {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 400px;
+  max-height: 30rem;
   overflow: auto;
 }
 .toggle:checked + .lbl-toggle {
@@ -100,6 +112,7 @@ header {
 }
 
 .chapter-heading {
+  margin: .2rem;
   border: none;
   border-radius: 5px;
   padding: 5px;
