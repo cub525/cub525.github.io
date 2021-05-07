@@ -5,20 +5,20 @@
   --ch3-color: #cdb3e6;
   --background: hsl(210, 35%, 85%);
   --text-color-2: hsl(210, 10%, 45%);
-  --scrollbar-color: var(--ch1-color);
+  --scrollbar-color: var(--text-color-2);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root{
+  :root {
     --text-color: hsl(210, 30%, 75%);
     --ch1-color: hsl(310, 45%, 75%);
     --ch2-color: hsl(210, 45%, 75%);
     --ch3-color: hsl(110, 45%, 75%);
     --background: hsl(210, 15%, 15%);
     --text-color-2: hsl(210, 30%, 30%);
+    --scrollbar-color: var(--text-color-2);
   }
 }
-
 body {
   margin: 1.5rem;
   text-align: left;
@@ -39,7 +39,7 @@ body {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--ch2-color) var(--ch1-color);
+  scrollbar-color: var(--ch2-color) var(--scrollbar-color);
 }
 
 *::-webkit-scrollbar {
@@ -51,11 +51,10 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--ch1-color);
+  background-color: var(--scrollbar-color);
   border-radius: 20px;
   border: 3px solid LightGray;
 }
-
 
 header {
   font-size: 2em;
@@ -63,19 +62,15 @@ header {
   text-align: center;
 }
 
-a{
-    &:link {
-    color: var(--text-color-1);
-    text-decoration: none;
-  }
-  
-    &:visited {
-    color: var(--text-color-1);
-  }
- 
-    &:hover {
-    color: var(--ch1-color);
-  }
+a:link {
+  color: var(--text-color-1);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--text-color-1);
+}
+a:hover {
+  color: var(--ch1-color);
 }
 
 .toggle {
@@ -118,17 +113,19 @@ a{
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  width: 100%
+  width: 100%;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 30rem;
   overflow: auto;
 }
+
 .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 .collapsible-content .content-inner {
   background: var(--ch2-color);
   border-bottom: 1px solid rgba(0, 105, 255, 0.3);
@@ -136,6 +133,7 @@ a{
   border-bottom-right-radius: 7px;
   padding: 0.5rem 1rem;
 }
+
 .collapsible-content p {
   margin-bottom: 0;
 }
@@ -143,7 +141,7 @@ a{
 .chapter-heading {
   display: inline;
   color: var(--text-color-2);
-  margin: .2rem;
+  margin: 0.2rem;
   border: none;
   border-radius: 5px;
   padding: 5px;
@@ -152,7 +150,6 @@ a{
 
 #ch1 {
   background-color: var(--ch1-color);
-
 }
 
 #ch2 {
@@ -187,7 +184,7 @@ li {
   clear: both;
   content: "";
   display: table;
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 
 .column {
@@ -204,9 +201,8 @@ li {
 }
 
 .states li {
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
-
 
 #by-the-bay-examples {
   padding-left: 2rem;
@@ -215,7 +211,6 @@ li {
 #example-list-dbtb {
   padding-left: 55px;
 }
-
 
 h3 {
   font-weight: normal;
@@ -227,5 +222,7 @@ h2 i {
 }
 
 #timp-div {
-  padding-right: .8rem;
+  padding-right: 0.8rem;
 }
+
+/*# sourceMappingURL=index.css.map */
