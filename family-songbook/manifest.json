@@ -8,13 +8,13 @@
   "start_url": "./index.html",
   "icons": [
     {
-        "src": "/images/eighth-note.png",
+        "src": "./images/eighth-note.png",
         "type": "image/png",
         "sizes": "512x512",
         "purpose":"any maskable"
     },
     {
-        "src": "/images/treble-clef.png",
+        "src": "./images/treble-clef.png",
         "type": "image/png",
         "sizes": "512x512",
         "purpose":"any maskable"
