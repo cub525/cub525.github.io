@@ -5,7 +5,7 @@
   "display": "standalone",
   "theme_color": "#ccffff",
   "background_color": "#364d63",
-  "start_url": "/",
+  "start_url": "/family-songbook/",
   "icons": [
     {
         "src": "./images/eighth-note.png",
