@@ -15,7 +15,7 @@
     --ch2-color: hsl(210, 45%, 75%);
     --ch3-color: hsl(110, 45%, 75%);
     --background: hsl(210, 15%, 15%);
-    --text-color-2: hsl(210, 30%, 30%);
+    --text-color-2: hsl(209, 29%, 30%);
     --scrollbar-color: var(--text-color-2);
   }
 }
@@ -81,6 +81,7 @@ a:hover {
   border-radius: 5px;
   padding: 5px;
   counter-increment: ChapterCounter;
+  background: var(--text-color);
 }
 
 #ch1 {

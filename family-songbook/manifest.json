@@ -1,0 +1,23 @@
+{
+  "name": "Family Songbook",
+  "short_name": "Songs",
+  "lang": "en-US",
+  "display": "standalone",
+  "theme_color": "#ccffff",
+  "background_color": "#364d63",
+  "start_url": "./index.html",
+  "icons": [
+    {
+        "src": "/images/eighth-note.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose":"any maskable"
+    },
+    {
+        "src": "/images/treble-clef.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose":"any maskable"
+    }
+  ]
+}
