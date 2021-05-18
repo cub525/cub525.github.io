@@ -1,3 +1,3 @@
 # cub525.github.io
- My website
-This is my website test, I am just learning html.
+
+This is my web dev experience  
