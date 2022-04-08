@@ -79,8 +79,9 @@ and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
       navigator.serviceWorker.register('service-worker.js');
     });
   }
-</script>
+  // only load the dom elements above the fold
 
+</script>
 </head>
 
 <body>
@@ -88,7 +89,7 @@ and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
     Welcome to the Family Songbook!
   </header>
   <br />
-  <div id="toc">
+  <div id="table-of-contents">
   </div>
   <h1 id="ch1" class="chapter-heading">Chapter 1: Lullabyes</h1>
   <h2 id="horsie"> Horsie (two part round) </h2>

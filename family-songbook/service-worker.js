@@ -1,24 +1,13 @@
-// importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js');
-
-// workbox.routing.registerRoute(
-//     ({ request }) => request.destination === "image",
-//     new workbox.strategies.CacheFirst()
-// );
-
-// workbox.routing.registerRoute(
-//     ({ url }) => url.pathname === '/index.html',
-//     new workbox.strategies.NetworkFirst()
-// );
-
 // Choose a cache name
 const cacheName = 'cache-v1';
-// List the files to precache
+// A List of files to precache
 const precacheResources = [
     '/family-songbook/',
     '/family-songbook/index.html',
     '/family-songbook/styles/index.css',
     '/family-songbook/manifest.json',
-    '/family-songbook/images/eighth-note.svg'];
+    '/family-songbook/images/eighth-note.svg'
+  ];
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', (event) => {

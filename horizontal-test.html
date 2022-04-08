@@ -1,160 +1,167 @@
-<link rel="stylesheet" type="text/css" href="family-songbook/styles/index.css">
-<style>
-    :root {
-        --text-size: clamp(14px, 4vw, 25px);
-    }
+<html lang="en">
 
-    .swipe-view {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 100vw;
-        overflow-x: scroll;
-        overflow: auto;
-        scroll-snap-points-x: repeat(100vw);
-        scroll-snap-destination: 0 0;
-        -ms-scroll-snap-type: mandatory;
-        scroll-snap-type: x mandatory;
-        scroll-snap-type: mandatory;
-        scroll-snap-stop: always;
-        white-space: nowrap;
-        height: 100vh;
-    }
-
-    .swipe-view .song-swipe {
-        font-size: var(--text-size);
-        scroll-snap-align: start;
-        width: 100vw;
-        background: hsl(calc(var(--num)*120), 50%, 50%);
-        display: inline-block;
-        position: relative;
-        vertical-align: top;
-
-    }
-
-    p {
-        font-size: clamp(14px, 4vw, 25px);
-    }
-</style>
-
-<div class="swipe-view">
-    <section class="song-swipe">
-        <h2 id="horsie"> Horsie (two part round) </h2>
-        <p> Horsie, Horsie, on my way <br>
-            We’ve been together for many a day <br>
-            So let your tail go swish and your wheels go round <br>
-            Giddy-up, we’re homeward bound </p>
-        <p> I like to take a horse and buggy <br>
-            I like to travel through the town <br>
-            I like to hear those hooves go clip-clop <br>
-            I like to see those wheels go round and round </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id="little-pony"> Little Pony </h2>
-        <p> Gee up little pony, la da da da da da <br>
-            Take me round the town <br>
-            Take me round the town </p>
-        <p> We’ll see all of London, la da da da da da <br>
-            In her evening gown. <br>
-            And away, we, go go go go go go go go go </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id="beautiful-baby"> Beutiful Baby <a href="full-versions.html#beautiful-baby"><i>excerpt</i></a></h2>
-        <p>Beautiful baby, just living on love<br>
-            the sandman says maybe, he'll take you above<br>
-            up to where birds fly on ribbons and bows<br>
-            where babies float by, just counting their toes.</p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id=shortnin-bread> Shortnin' Bread <i>excerpt</i> </h2>
-        <p> Mama’s little baby loves shortnin’ shortnin’ <br>
-            Mama’s little baby loves shortnin’ bread <br>
-            Mama’s little baby loves shortnin’ shortnin’ <br>
-            Mama’s little baby loves shortnin’ bread </p>
-        <p> I went to the doctor and the doctor said: <br>
-            "Feed that baby on shortnin bread" <br>
-            Mama’s little baby loves shortnin’ shortnin’ <br>
-            Mama’s little baby loves shortnin’ bread </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id=my-pretty-baby> My Pretty Baby (two part round) </h2>
-        <p> Sleep tight, Sandman’s a-coming <br>
-            And he’ll be here, mighty-mighty soon <br>
-            So if you don’t cry, he’ll be coming by <br>
-            With a great big yellow balloon. </p>
-        <p> How I love my pretty baby <br>
-            Sweet and tender little baby <br>
-            How I love my pretty baby <br>
-            Honest to goodness I do! </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id="little-white-duck"> Little White Duck </h2>
-        <p> There's a little white duck sitting in the water, <br>
-            a little white duck doing what he oughter, <br>
-            he took a bite of a lily pad, <br>
-            flapped his wings and he said "I'm glad <br>
-            I'm a little white duck sitting in the water. <br>
-            Quack! quack! quack!" </p>
-        <p> There's a little green frog swimming in the water, <br>
-            a little green frog doing what he oughter, <br>
-            he jumped right off of the lily pad,<br>
-            that the little duck bit and he said "I'm glad<br>
-            I'm a little green frog swimming in the water.<br>
-            ribbit! ribbit! ribbit!" </p>
-
-        <p> There's a little black bug floating on the water,<br>
-            a little black bug doing what he oughter,<br>
-            he tickled the frog on the lily pad,<br>
-            that the little duck bit and he said "I'm glad<br>
-            I'm a little black bug floating on the water.<br>
-            bzzz! bzzz! bzzz!" </p>
-
-        <p> There's a little red snake playing in the water,<br>
-            a little red snake doing what he oughter,<br>
-            he frightened the duck and the frog so bad,<br>
-            he ate the bug and he said "I'm glad<br>
-            I'm a little red snake playing in the water.<br>
-            hiss! hiss! hiss!" </p>
-
-        <p> Now there's nobody left sitting in the water,<br>
-            nobody left doing what he oughter,<br>
-            there's nothing left but the lily pad,<br>
-            the duck and the frog ran away, I'm sad<br>
-            'cause there's nobody left sitting in the water.<br>
-            Boo! hoo! hoo! </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id="red-robin"> Red Robin </h2>
-        <p> When the red-red robin comes bob-bob-bobbin along, <br>
-            There’ll be no more sobbin’ <br>
-            When he starts singin’ his old sweet song, <br>
-            "Wake up, you sleepyhead, Get up, get up, get out of bed.<br>
-            Cheer up, cheer up, the sun is red. live, love, laugh and be happy.
-        </p>
-    </section>
-
-
-    <section class="song-swipe">
-        <h2 id="baby-bunting"> Baby Bunting </h2>
-        <p> Bye, Baby Bunting, <br>
-            Daddy’s gone a-hunting <br>
-            To catch a little rabbit skin <br>
-            To wrap my baby bunting in </p>
-    </section>
-
-    <section class="song-swipe">
-        <h2 id="cottage-in-the-woods"> Cottage in the Woods </h2>
-        <p> In a cottage in the woods, a little old man by the window stood <br>
-            Saw a rabbit hopping by, knocking at the door.<br>
-            Help me, help me, help me, he said.<br>
-            Or the hunter will shoot me dead.<br>
-            Come little rabbit, come with me.<br>
-            Happy we will be. </p>
-    </section>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="family-songbook/styles/index.css">
+    <style>
+        .swipe-view {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100vw;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            scroll-snap-points-x: repeat(100vw);
+            scroll-snap-destination: 0 0;
+            -ms-scroll-snap-type: mandatory;
+            scroll-snap-type: x mandatory;
+            scroll-snap-type: mandatory;
+            scroll-snap-stop: always;
+            white-space: nowrap;
+            height: 100vh;
+        }
+    
+        .swipe-view .song-swipe {
+            font-size: var(--text-size);
+            scroll-snap-align: start;
+            width: 100vw;
+            background: hsl(calc(var(--num)*120), 50%, 50%);
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            height: 100vh;
+    
+        }
+/*     
+        p {
+            font-size: clamp(14px, 4vw, 25px);
+        } */
+    </style>
+</head>
+<body>
+    <div class="swipe-view">
+        <section class="song-swipe">
+            <h2 id="horsie"> Horsie (two part round) </h2>
+            <p> Horsie, Horsie, on my way <br>
+                We’ve been together for many a day <br>
+                So let your tail go swish and your wheels go round <br>
+                Giddy-up, we’re homeward bound </p>
+            <p> I like to take a horse and buggy <br>
+                I like to travel through the town <br>
+                I like to hear those hooves go clip-clop <br>
+                I like to see those wheels go round and round </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id="little-pony"> Little Pony </h2>
+            <p> Gee up little pony, la da da da da da <br>
+                Take me round the town <br>
+                Take me round the town </p>
+            <p> We’ll see all of London, la da da da da da <br>
+                In her evening gown. <br>
+                And away, we, go go go go go go go go go </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id="beautiful-baby"> Beutiful Baby <a href="full-versions.html#beautiful-baby"><i>excerpt</i></a></h2>
+            <p>Beautiful baby, just living on love<br>
+                the sandman says maybe, he'll take you above<br>
+                up to where birds fly on ribbons and bows<br>
+                where babies float by, just counting their toes.</p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id=shortnin-bread> Shortnin' Bread <i>excerpt</i> </h2>
+            <p> Mama’s little baby loves shortnin’ shortnin’ <br>
+                Mama’s little baby loves shortnin’ bread <br>
+                Mama’s little baby loves shortnin’ shortnin’ <br>
+                Mama’s little baby loves shortnin’ bread </p>
+            <p> I went to the doctor and the doctor said: <br>
+                "Feed that baby on shortnin bread" <br>
+                Mama’s little baby loves shortnin’ shortnin’ <br>
+                Mama’s little baby loves shortnin’ bread </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id=my-pretty-baby> My Pretty Baby (two part round) </h2>
+            <p> Sleep tight, Sandman’s a-coming <br>
+                And he’ll be here, mighty-mighty soon <br>
+                So if you don’t cry, he’ll be coming by <br>
+                With a great big yellow balloon. </p>
+            <p> How I love my pretty baby <br>
+                Sweet and tender little baby <br>
+                How I love my pretty baby <br>
+                Honest to goodness I do! </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id="little-white-duck"> Little White Duck </h2>
+            <p> There's a little white duck sitting in the water, <br>
+                a little white duck doing what he oughter, <br>
+                he took a bite of a lily pad, <br>
+                flapped his wings and he said "I'm glad <br>
+                I'm a little white duck sitting in the water. <br>
+                Quack! quack! quack!" </p>
+            <p> There's a little green frog swimming in the water, <br>
+                a little green frog doing what he oughter, <br>
+                he jumped right off of the lily pad,<br>
+                that the little duck bit and he said "I'm glad<br>
+                I'm a little green frog swimming in the water.<br>
+                ribbit! ribbit! ribbit!" </p>
+    
+            <p> There's a little black bug floating on the water,<br>
+                a little black bug doing what he oughter,<br>
+                he tickled the frog on the lily pad,<br>
+                that the little duck bit and he said "I'm glad<br>
+                I'm a little black bug floating on the water.<br>
+                bzzz! bzzz! bzzz!" </p>
+    
+            <p> There's a little red snake playing in the water,<br>
+                a little red snake doing what he oughter,<br>
+                he frightened the duck and the frog so bad,<br>
+                he ate the bug and he said "I'm glad<br>
+                I'm a little red snake playing in the water.<br>
+                hiss! hiss! hiss!" </p>
+    
+            <p> Now there's nobody left sitting in the water,<br>
+                nobody left doing what he oughter,<br>
+                there's nothing left but the lily pad,<br>
+                the duck and the frog ran away, I'm sad<br>
+                'cause there's nobody left sitting in the water.<br>
+                Boo! hoo! hoo! </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id="red-robin"> Red Robin </h2>
+            <p> When the red-red robin comes bob-bob-bobbin along, <br>
+                There’ll be no more sobbin’ <br>
+                When he starts singin’ his old sweet song, <br>
+                "Wake up, you sleepyhead, Get up, get up, get out of bed.<br>
+                Cheer up, cheer up, the sun is red. live, love, laugh and be happy.
+            </p>
+        </section>
+    
+    
+        <section class="song-swipe">
+            <h2 id="baby-bunting"> Baby Bunting </h2>
+            <p> Bye, Baby Bunting, <br>
+                Daddy’s gone a-hunting <br>
+                To catch a little rabbit skin <br>
+                To wrap my baby bunting in </p>
+        </section>
+    
+        <section class="song-swipe">
+            <h2 id="cottage-in-the-woods"> Cottage in the Woods </h2>
+            <p> In a cottage in the woods, a little old man by the window stood <br>
+                Saw a rabbit hopping by, knocking at the door.<br>
+                Help me, help me, help me, he said.<br>
+                Or the hunter will shoot me dead.<br>
+                Come little rabbit, come with me.<br>
+                Happy we will be. </p>
+        </section>
+    </div>
+</body>
+</html>
