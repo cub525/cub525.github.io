@@ -9,6 +9,6 @@
     {title}
   </div>
   <div class="lyrics">
-    {body}
+    {@html body}
   </div>
 </div>

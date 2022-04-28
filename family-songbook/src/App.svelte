@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="../styles/index.css">
 <script>
 	import PostCard from "./components/PostCard.svelte";
 	import axios from "axios";
@@ -14,14 +13,10 @@
 	// We'll use this function for the initial fetch when the component is mounted. as well as addition fetches on scroll
 	const fetchData = async (page) => {
 		// Some template litterals for the fetch query
-		let queryURL = "./songs.json";
+		let songs = await fetch("./songs.json");
+		let json = JSON.parse(await songs.text());
+		let res = {"data": json.slice(PAGE_SIZE * (page - 1), PAGE_SIZE * page)};
 
-		let res = await axios
-			.get(queryURL)
-			// Await had cool error handling too 😎!, no need to use try catch all over the place 😀
-			.catch((err) =>
-				console.log(`😞 Something went terribly wrong: ${err.message}`)
-			);
 
 		// If we were able to get more posts, add them to our posts array
 		if (res.data.length > 0) posts = [...posts, ...res.data];
@@ -59,9 +54,6 @@
 	<div use:inview={{}} on:change={handleChange} />
 
 	<!-- If there's nothing more to fetch, we have to let the user know that -->
-	{#if !hasMore}
-		<h1>—— No more of results ——</h1>
-	{/if}
 </div>
 
 <!-- Some generic styles. Pretty UI isn't the focus of this guide -->

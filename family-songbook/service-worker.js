@@ -2,11 +2,11 @@
 const cacheName = 'cache-v1';
 // A List of files to precache
 const precacheResources = [
-    '/family-songbook/',
-    '/family-songbook/index.html',
-    '/family-songbook/styles/index.css',
-    '/family-songbook/manifest.json',
-    '/family-songbook/images/eighth-note.svg'
+    'songs.json',
+    'index.html',
+    'styles/index.css',
+    'manifest.json',
+    'images/eighth-note.svg'
   ];
 
 // When the service worker is installing, open the cache and add the precache resources to it
