@@ -12,14 +12,3 @@
     {body}
   </div>
 </div>
-
-<style>
-  .song {
-    color: white;
-    margin: 1rem 0;
-    background: palevioletred;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    white-space: pre;
-  }
-</style>

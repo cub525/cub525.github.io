@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="../styles/index.css">
 <script>
 	import PostCard from "./components/PostCard.svelte";
 	import axios from "axios";
@@ -64,10 +65,3 @@
 </div>
 
 <!-- Some generic styles. Pretty UI isn't the focus of this guide -->
-<style>
-	.container {
-		max-width: 750px;
-		padding: 25px;
-		margin: auto;
-	}
-</style>
