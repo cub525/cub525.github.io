@@ -39,13 +39,11 @@
 </script>
 
 <div class="container">
-	<h1>SVELTE INFINITE SCROLLING 🔥</h1>
-
 	{#if posts}
 		{#each posts as post (post.id)}
 			<PostCard {...post} />
 		{:else}
-			<div>404 — 😞 No Posts Found</div>
+			<div>No Songs. Contact the developer</div>
 		{/each}
 	{/if}
 
