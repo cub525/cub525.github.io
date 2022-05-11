@@ -14,7 +14,7 @@
 	<link rel='icon' type='image/png' href='./images/eighth-note.png'>
 	<!-- <link rel='stylesheet' href='public/global.css'> -->
 	<!-- <link rel='stylesheet' href='public/build/bundle.css'> -->
-
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha384-bvolbvaOKukLRZJmjX21ricUtSEGzVJJUt8HWP3hmWgKxolbCh4gBDvdTPhmbXIH' 'nonce-2ed7ca3e98e005c9'">
 
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -77,15 +77,13 @@ and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 	<link rel="apple-touch-startup-image" href="images/icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 
-	<script defer src='public/build/bundle.js'></script>
-	<script defer>
+	<script defer src='public/build/bundle.js' integrity="sha384-bvolbvaOKukLRZJmjX21ricUtSEGzVJJUt8HWP3hmWgKxolbCh4gBDvdTPhmbXIH"></script>
+	<script defer nonce="2ed7ca3e98e005c9">
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function () {
 				navigator.serviceWorker.register('service-worker.js');
 			});
 		}
-  // only load the dom elements above the fold
-
 	</script>
 <body>
 </body>
