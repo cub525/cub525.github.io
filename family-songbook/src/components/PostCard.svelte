@@ -5,9 +5,9 @@
 </script>
 
 <div class="song" id={id}>
-  <div class="title">
-    {title}
-  </div>
+  <h2 class="title">
+    {@html title}
+  </h2>
   <div class="lyrics">
     {@html body}
   </div>
