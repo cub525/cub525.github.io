@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
+    "postbuild": "sed \"s#integrity=\\\"[^\\\"]*\\\"#integrity=\\\"sha384-`shasum -b -a 384 public/build/bundle.js | awk '{ print $1 }' | xxd -r -p | base64`\\\"#\" index.html -i",
     "dev": "rollup -c -w",
     "start": "sirv --no-clear"
   },
